@@ -13,10 +13,10 @@
 		34E588641E77CF95007955D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E588621E77CF95007955D3 /* Main.storyboard */; };
 		34E588661E77CF95007955D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E588651E77CF95007955D3 /* Assets.xcassets */; };
 		34E588691E77CF95007955D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E588671E77CF95007955D3 /* LaunchScreen.storyboard */; };
-		34E588761E77CFBF007955D3 /* NSObject+KVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E588721E77CFBF007955D3 /* NSObject+KVOManager.m */; };
-		34E588771E77CFBF007955D3 /* ZNKVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E588751E77CFBF007955D3 /* ZNKVOManager.m */; };
 		34E588831E77D0E0007955D3 /* ZNCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E588801E77D0E0007955D3 /* ZNCustomModel.m */; };
 		34E588841E77D0E0007955D3 /* ZNCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E588821E77D0E0007955D3 /* ZNCustomView.m */; };
+		34E588931E793A5A007955D3 /* NSObject+KVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E5888F1E793A5A007955D3 /* NSObject+KVOManager.m */; };
+		34E588941E793A5A007955D3 /* ZNKVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E588921E793A5A007955D3 /* ZNKVOManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,15 +30,15 @@
 		34E588651E77CF95007955D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E588681E77CF95007955D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34E5886A1E77CF95007955D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34E588711E77CFBF007955D3 /* NSObject+KVOManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOManager.h"; sourceTree = "<group>"; };
-		34E588721E77CFBF007955D3 /* NSObject+KVOManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOManager.m"; sourceTree = "<group>"; };
-		34E588731E77CFBF007955D3 /* ZNKVOHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNKVOHeader.h; sourceTree = "<group>"; };
-		34E588741E77CFBF007955D3 /* ZNKVOManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNKVOManager.h; sourceTree = "<group>"; };
-		34E588751E77CFBF007955D3 /* ZNKVOManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNKVOManager.m; sourceTree = "<group>"; };
 		34E5887F1E77D0E0007955D3 /* ZNCustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNCustomModel.h; sourceTree = "<group>"; };
 		34E588801E77D0E0007955D3 /* ZNCustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNCustomModel.m; sourceTree = "<group>"; };
 		34E588811E77D0E0007955D3 /* ZNCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNCustomView.h; sourceTree = "<group>"; };
 		34E588821E77D0E0007955D3 /* ZNCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNCustomView.m; sourceTree = "<group>"; };
+		34E5888E1E793A5A007955D3 /* NSObject+KVOManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOManager.h"; sourceTree = "<group>"; };
+		34E5888F1E793A5A007955D3 /* NSObject+KVOManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOManager.m"; sourceTree = "<group>"; };
+		34E588901E793A5A007955D3 /* ZNKVOHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNKVOHeader.h; sourceTree = "<group>"; };
+		34E588911E793A5A007955D3 /* ZNKVOManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNKVOManager.h; sourceTree = "<group>"; };
+		34E588921E793A5A007955D3 /* ZNKVOManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNKVOManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		34E588581E77CF95007955D3 /* ZNKVOManagerExample */ = {
 			isa = PBXGroup;
 			children = (
-				34E588701E77CFBF007955D3 /* ZNKVOManager */,
+				34E5888D1E793A5A007955D3 /* ZNKVOManager */,
 				34E5887E1E77D0E0007955D3 /* Example */,
 				34E5885C1E77CF95007955D3 /* AppDelegate.h */,
 				34E5885D1E77CF95007955D3 /* AppDelegate.m */,
@@ -94,18 +94,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		34E588701E77CFBF007955D3 /* ZNKVOManager */ = {
-			isa = PBXGroup;
-			children = (
-				34E588731E77CFBF007955D3 /* ZNKVOHeader.h */,
-				34E588711E77CFBF007955D3 /* NSObject+KVOManager.h */,
-				34E588721E77CFBF007955D3 /* NSObject+KVOManager.m */,
-				34E588741E77CFBF007955D3 /* ZNKVOManager.h */,
-				34E588751E77CFBF007955D3 /* ZNKVOManager.m */,
-			);
-			path = ZNKVOManager;
-			sourceTree = "<group>";
-		};
 		34E5887E1E77D0E0007955D3 /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +103,19 @@
 				34E588821E77D0E0007955D3 /* ZNCustomView.m */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		34E5888D1E793A5A007955D3 /* ZNKVOManager */ = {
+			isa = PBXGroup;
+			children = (
+				34E5888E1E793A5A007955D3 /* NSObject+KVOManager.h */,
+				34E5888F1E793A5A007955D3 /* NSObject+KVOManager.m */,
+				34E588901E793A5A007955D3 /* ZNKVOHeader.h */,
+				34E588911E793A5A007955D3 /* ZNKVOManager.h */,
+				34E588921E793A5A007955D3 /* ZNKVOManager.m */,
+			);
+			name = ZNKVOManager;
+			path = ../../ZNKVOManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,11 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E588931E793A5A007955D3 /* NSObject+KVOManager.m in Sources */,
 				34E588831E77D0E0007955D3 /* ZNCustomModel.m in Sources */,
 				34E588611E77CF95007955D3 /* ViewController.m in Sources */,
-				34E588771E77CFBF007955D3 /* ZNKVOManager.m in Sources */,
 				34E5885E1E77CF95007955D3 /* AppDelegate.m in Sources */,
-				34E588761E77CFBF007955D3 /* NSObject+KVOManager.m in Sources */,
+				34E588941E793A5A007955D3 /* ZNKVOManager.m in Sources */,
 				34E588841E77D0E0007955D3 /* ZNCustomView.m in Sources */,
 				34E5885B1E77CF95007955D3 /* main.m in Sources */,
 			);
@@ -352,6 +353,7 @@
 				34E5886F1E77CF95007955D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
